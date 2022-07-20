@@ -1,0 +1,28 @@
+import pygame
+import sys
+
+pygame.init()
+screen = pygame.display.set_mode((400,500)) #creating the very 1st display, blk one
+clock = pygame.time.Clock()
+test_surface = pygame.Surface((100,200))
+test_rect = test_surface.get_rect(center = (200,250))
+#test_surface.fill((0,0,255))
+
+running = True
+x_pos = 200
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.KEYDOWN:
+            running = False
+            pygame.display.quit()
+            pygame.quit()
+            sys.exit()
+    screen.fill((175,215,70))
+    #screen.blit(test_surface,test_rect)
+    x_pos -= 1
+    screen.blit(test_surface,(200,x_pos))
+    pygame.display.update()           #did't write it and got an error [the colors aren't visible only just a black screen]
+    clock.tick(60)
+
+
+
