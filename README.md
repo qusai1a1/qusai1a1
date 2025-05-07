@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @qusai1a1
-- 👀 I’m interested in data sciences and web development
-- 🌱 I’m currently learning python
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 👋 Hi, I’m @qusia_abdulhammed_idrees
+- I'm an IT Professional Helpdesk
+- Interested in Tech and Learning new technology
+- Here you will find what's on my mind and what I'm reading or practicing in the tech field
+- It's all about: programming, technical support, cloud, Ai, DB and system development
 
 <!---
 qusai1a1/qusai1a1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
